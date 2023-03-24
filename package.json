@@ -1,0 +1,21 @@
+{
+  "name": "fireship-tests",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "jest --watchAll --verbose --coverage",
+    "e2e": "cypress open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "cypress": "^12.8.1",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
